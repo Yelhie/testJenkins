@@ -16,7 +16,7 @@ pipeline {
         
          stage('step ERROR') {
             steps {
-                echot 'error'
+                echo 'error'
             }
         }
                stage('step 4') {
